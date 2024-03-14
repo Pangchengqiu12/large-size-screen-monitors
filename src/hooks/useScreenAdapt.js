@@ -9,7 +9,7 @@ export default function useScreenAdapt(dWidth = 1920, dHeight = 1080) {
   // 防抖
   const throttleAdjustZoom = debounce(() => {
     AdjustZoom();
-  }, 500);
+  }, 100);
 
   onMounted(() => {
     AdjustZoom();

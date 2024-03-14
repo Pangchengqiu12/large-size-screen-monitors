@@ -29,6 +29,7 @@ body {
   transform-origin: left top;
   left: 50%;
   background-color: black;
+  animation: scale-down 1s;
 }
 /* 滚动槽 */
 ::-webkit-scrollbar-track {
